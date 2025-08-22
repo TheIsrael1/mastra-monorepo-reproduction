@@ -1,0 +1,25 @@
+{
+  "name": "example-app",
+  "module": "src/mastra/index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "mastra dev",
+    "build": "mastra build"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^24.3.0",
+    "mastra": "^0.10.23",
+    "tsx": "^4.20.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^2.0.19",
+    "@mastra/core": "^0.14.1",
+    "example-lib": "workspace:*",
+    "zod": "^3"
+  }
+}
